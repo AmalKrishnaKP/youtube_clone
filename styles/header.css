@@ -46,6 +46,7 @@ button:hover{
     max-width: 600px;
     display: flex;
     align-items: center;
+    
 }
 .middle-section .search-btn{
     min-width: 50px;
@@ -144,7 +145,7 @@ button:hover{
 }
 @media (max-width:669px) {
     .middle-section{
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .middle-section input{
         display: none;
