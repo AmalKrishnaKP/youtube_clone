@@ -4,6 +4,10 @@
     font-family: Roboto,Arial;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 body{
     padding-top: 80px;
     padding-left: 73px;
@@ -81,5 +85,6 @@ body{
     .video-grid{
         grid-template-columns: 1fr;
     }
+    
     
 }
