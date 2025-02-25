@@ -1,5 +1,6 @@
 .header{
     position: fixed;
+    width: 100%;
     top:0px;
     left: 0;
     right: 0;
@@ -120,8 +121,8 @@ button:hover{
 .my-pic{
     height: 40px;
     border-radius: 25px;
-    margin-right: 20px;
-    margin-left: 5px;
+    /* margin-right: 20px;
+    margin-left: 5px; */
 }
 .create-div{
     margin-left: 10px;
