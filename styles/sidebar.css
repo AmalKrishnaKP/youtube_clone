@@ -1,0 +1,35 @@
+.sidebar{
+    box-sizing: border-box;
+    position: fixed;
+    top:56px;
+    left:0;
+    bottom: 0;
+    background-color: white;
+    width: 73px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.side{
+    /* padding-top: 30px; */
+    min-width: 73px;
+    min-height: 73px;
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* vertical-align: middle; */
+    font-size: 10px;
+    cursor: pointer;
+    transition:background-color 0.15s;
+    
+
+}
+.side:hover{
+    background-color: rgb(215, 215, 215);
+}
+
+.side-img{
+    width: 30px;
+}

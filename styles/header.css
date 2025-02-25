@@ -1,0 +1,163 @@
+.header{
+    position: fixed;
+    top:0px;
+    left: 0;
+    right: 0;
+    margin-bottom: 1px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    height: 55px;
+    vertical-align:top;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color:rgb(199, 199, 199);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    box-shadow: outset 1px 1px 5px rgba(0, 0, 0,0.5);
+    z-index: 1;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: aliceblue;
+
+}
+.left-section{    
+    /* background-color: blue; */
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.left-section .logo{
+    height: 20px;
+}
+.humburger{
+    height: 25px;
+    padding: 0 24px 0 15px;
+}
+.middle-section{
+    flex: 1;
+    min-width: 90px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+}
+.middle-section .search-btn{
+    min-width: 50px;
+    height: 40.5px;
+    padding-top: 3px;
+    margin-left: -1px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius:0 20px 20px 0;
+    border-color: rgb(157, 157, 157);
+
+}
+.voice-btn{
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    margin-left: 10px;
+    border-width: 1px;
+    border-radius:20px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
+}
+.middle-section img{
+    width: 25px;
+    
+}
+.middle-section input{
+    min-width: 73px;
+    font-size:18px;
+    height: 41px;
+    flex: 1;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 19px 0 0 19px;
+    border-color: rgb(157, 157, 157);
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.15);
+}
+.search-bar::placeholder{
+    font-size: 18px;
+    padding-left: 12px;
+}
+.right-section{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.right-section button{
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    /* margin-right: 20px; */
+   
+    border-width: 1px;
+    border-radius:20px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+.right-section button:hover{
+    background-color: rgb(241, 241, 241);
+}
+.create,.menu,.notify{
+    height: 30px;
+    
+}
+.menu{
+    padding-top: 3px;
+}
+.my-pic{
+    height: 40px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.create-div{
+    margin-left: 10px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(174, 174, 174);
+    /* margin-right: 30px; */
+    padding:2px 10px 2px 2px;
+    border-width: 1px;
+    box-shadow: inset 1px 2px 2px rgba(0,0,0,0.15);
+}
+.create{
+    padding: 0;  
+}
+@media (max-width:669px) {
+    .middle-section{
+        justify-content: space-between;
+    }
+    .middle-section input{
+        display: none;
+    }
+    .middle-section .search-btn{
+        min-width: 41px;
+        border-radius: 20px;
+        margin-left: 0px;
+        border-style: none;
+        border-width: 1px;
+        border-radius:20px;
+        border-color: rgb(255, 255, 255);
+        background-color: rgb(241, 241, 241);
+    }
+    .middle-section .search-btn:hover{
+        background-color: aliceblue;
+    }
+    
+    
+}
